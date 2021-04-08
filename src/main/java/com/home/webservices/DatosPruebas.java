@@ -15,6 +15,7 @@ public class DatosPruebas {
 	@Bean("listaUsuarios")
 	public  List<Usuario> getListaUsuarios() {
 		
+		
 		List<Usuario> usuarios = new ArrayList<Usuario>();
 		Usuario u1 = new  Usuario("user1","123","RAUL","GOMEZ","NIETO");
 		Usuario u2 = new  Usuario("user2","123","JUAN","GARCIA","POZUELO");
@@ -23,8 +24,16 @@ public class DatosPruebas {
 		return usuarios; 
 	}
 	
+	
+	
+	/**
+	 *  REGISTRANDO DATOS DE PRUEBA
+	 * 
+	 * @return
+	 */
 	@Bean("listaAlumnos")
 	public  List<Alumno> getListaAlumnos() {
+		
 		
 		List<Alumno> listaAlumnos = new ArrayList<Alumno>();
 		Alumno a1 = new  Alumno("0001","Rul","Gomez","Grijhander");
