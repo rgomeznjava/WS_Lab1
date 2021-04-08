@@ -16,7 +16,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter{
 	        http.cors().disable();
 	        http.headers().frameOptions().sameOrigin();
 	        
-	        //pepitoooooooooo
+	        //pepituuuuuuuuuuuuuuuuuuuuuuu
 	      
 	    }
 }
